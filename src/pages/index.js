@@ -2,12 +2,12 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Profile from './components/profile'
+import Todo from './qcomps/props_item'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Profile />
+        <Todo />
     </div>
   )
 }
