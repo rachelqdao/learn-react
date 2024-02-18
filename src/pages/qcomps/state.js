@@ -7,7 +7,7 @@ export default function Gallery() {
 
   // index out of bounds checking
   function handleNextClick() {
-    if (index <= sculptureList.length - 1) {
+    if (index < sculptureList.length - 1) {
       setIndex(index + 1);
     } else {
       setIndex(0);
